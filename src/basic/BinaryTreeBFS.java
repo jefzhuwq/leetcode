@@ -1,21 +1,13 @@
 package basic;
 
+import ds.TreeNode;
+
 import java.util.*;
 
 /**
  * Binary Tree - breadth first search
  */
 public class BinaryTreeBFS {
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
 
     public static void main(String[] args) {
         BinaryTreeBFS bfs = new BinaryTreeBFS();

@@ -1,5 +1,7 @@
 package leetcode;
 
+import ds.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,17 +30,6 @@ public class Leaf_Similar_Trees {
 
         return root;
     }
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
 
     public static void main(String[] args) {
         List<Integer> leafList1 = new ArrayList<>();

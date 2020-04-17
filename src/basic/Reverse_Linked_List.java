@@ -1,17 +1,11 @@
 package basic;
 
-public class ReverseLinkedList {
-    class ListNode {
-        int val;
-        ListNode next;
+import ds.ListNode;
 
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
+public class Reverse_Linked_List {
 
     public static void main(String[] args) {
-        ReverseLinkedList solution = new ReverseLinkedList();
+        Reverse_Linked_List solution = new Reverse_Linked_List();
         int[] arr = {1, 2, 3, 4, 5};
 
         // original order

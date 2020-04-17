@@ -1,5 +1,7 @@
 package basic;
 
+import ds.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -14,15 +16,6 @@ import java.util.Stack;
  * N means root node
  */
 public class BinaryTreeDFS {
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
 
     public static void main(String[] args) {
         BinaryTreeDFS dfs = new BinaryTreeDFS();

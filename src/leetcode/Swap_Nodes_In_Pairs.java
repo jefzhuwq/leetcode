@@ -1,17 +1,11 @@
 package leetcode;
 
+import ds.ListNode;
+
 /**
  * https://leetcode.com/problems/swap-nodes-in-pairs
  */
 public class Swap_Nodes_In_Pairs {
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public ListNode swapPairs(ListNode head) {
         ListNode temp = new ListNode(0);

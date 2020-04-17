@@ -1,14 +1,11 @@
 package leetcode;
 
+import ds.TreeNode;
+
 /**
  * https://leetcode.com/problems/distribute-coins-in-binary-tree
  */
 public class Distribute_Coins_in_Binary_Tree {
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     int num_moves;
 

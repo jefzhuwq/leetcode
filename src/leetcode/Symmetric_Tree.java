@@ -1,15 +1,11 @@
 package leetcode;
 
+import ds.TreeNode;
+
 /**
  * https://leetcode.com/problems/symmetric-tree
  */
 public class Symmetric_Tree {
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public boolean isSymmetricTree(TreeNode root) {
         return isMirror(root, root);

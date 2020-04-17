@@ -1,17 +1,13 @@
 package leetcode;
 
+import ds.TreeNode;
+
 import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/range-sum-of-bst
  */
 public class Range_Sum_of_BST {
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public int rangeSUMBST(TreeNode root, int L, int R) {
         int range_sum = 0;
